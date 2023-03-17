@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c0a1f56ab6b27f4787a232b6d48a6bc, type: 3}
+  m_Name: QuestionData
+  m_EditorClassIdentifier: 
+  questions:
+  - questionInfo: Which one doesn't fly?
+    options:
+    - Kiwi
+    - Eagle
+    - Swan
+    correctAns: Kiwi
+    socialPoints: 0
+    environmentPoints: 0
+    economicPoints: 0
+  - questionInfo: Biggest mammal on Earth is?
+    options:
+    - Dog
+    - Elephant
+    - Whale
+    correctAns: Whale
+    socialPoints: 0
+    environmentPoints: 0
+    economicPoints: 0
+  - questionInfo: Which one can fly?
+    options:
+    - Pigeon
+    - Chicken
+    - Penguin
+    correctAns: Pigeon
+    socialPoints: 0
+    environmentPoints: 0
+    economicPoints: 0
+  - questionInfo: Is black a color?
+    options:
+    - Yes
+    - No
+    - I don't know
+    correctAns: Yes
+    socialPoints: 0
+    environmentPoints: 0
+    economicPoints: 0
