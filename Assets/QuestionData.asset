@@ -13,39 +13,54 @@ MonoBehaviour:
   m_Name: QuestionData
   m_EditorClassIdentifier: 
   questions:
-  - questionInfo: Which one doesn't fly?
+  - questionInfo: "Mitk\xE4 ovat kolme kest\xE4v\xE4n kehityksen osa-aluetta?"
     options:
-    - Kiwi
-    - Eagle
-    - Swan
-    correctAns: Kiwi
-    socialPoints: 0
-    environmentPoints: 0
-    economicPoints: 0
-  - questionInfo: Biggest mammal on Earth is?
+    - "Talouskasvu, ymp\xE4rist\xF6nsuojelu ja tasa-arvo"
+    - "Ymp\xE4rist\xF6nsuojelu, taloudellinen kest\xE4vyys ja sosiaalinen kest\xE4vyys"
+    - "Koulutus, ymp\xE4rist\xF6nsuojelu ja talouskasvu"
+    correctAns: "Ymp\xE4rist\xF6nsuojelu, taloudellinen kest\xE4vyys ja sosiaalinen
+      kest\xE4vyys"
+    socialPoints: 1
+    ecologyPoints: 0
+    economyPoints: 0
+    commonPoints: 0
+  - questionInfo: 2
     options:
-    - Dog
-    - Elephant
-    - Whale
-    correctAns: Whale
-    socialPoints: 0
-    environmentPoints: 0
-    economicPoints: 0
-  - questionInfo: Which one can fly?
+    - Ei
+    - "Kyll\xE4"
+    - "Ehk\xE4"
+    correctAns: "Ehk\xE4"
+    socialPoints: 1
+    ecologyPoints: 1
+    economyPoints: 0
+    commonPoints: 0
+  - questionInfo: 3
     options:
-    - Pigeon
-    - Chicken
-    - Penguin
-    correctAns: Pigeon
-    socialPoints: 0
-    environmentPoints: 0
-    economicPoints: 0
-  - questionInfo: Is black a color?
+    - Ei
+    - "Kyll\xE4"
+    - "Ehk\xE4"
+    correctAns: "Ehk\xE4"
+    socialPoints: 1
+    ecologyPoints: 1
+    economyPoints: 0
+    commonPoints: 1
+  - questionInfo: 4
     options:
-    - Yes
-    - No
-    - I don't know
-    correctAns: Yes
-    socialPoints: 0
-    environmentPoints: 0
-    economicPoints: 0
+    - Ei
+    - "Kyll\xE4"
+    - "Ehk\xE4"
+    correctAns: "Ehk\xE4"
+    socialPoints: 1
+    ecologyPoints: 0
+    economyPoints: 1
+    commonPoints: 0
+  - questionInfo: 5
+    options:
+    - Ei
+    - "Kyll\xE4"
+    - "Ehk\xE4"
+    correctAns: "Ehk\xE4"
+    socialPoints: 1
+    ecologyPoints: 0
+    economyPoints: 1
+    commonPoints: 0

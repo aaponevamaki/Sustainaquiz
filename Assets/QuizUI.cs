@@ -16,16 +16,45 @@ public class QuizUI : MonoBehaviour
     private Question question;
     private bool answered;
 
-    // Start is called before the first frame update
+    public TextMeshProUGUI pointsText;
+    private int pointsNum;
+    private int totalSocialPoints;
+    private int totalEcologyPoints;
+    private int totalEconomyPoints;
+    private int highscore;
+
     void Awake()
     {
+        if (PlayerPrefs.HasKey("socialpoints"))
+        {
+            totalSocialPoints = PlayerPrefs.GetInt("socialpoints");
+        }
+
+        if (PlayerPrefs.HasKey("ecologypoints"))
+        {
+            totalEcologyPoints = PlayerPrefs.GetInt("ecologypoints");
+        }
+
+        if (PlayerPrefs.HasKey("economypoints"))
+        {
+            totalEconomyPoints = PlayerPrefs.GetInt("economypoints");
+        }
+
+        if (PlayerPrefs.HasKey("highscore"))
+        {
+            highscore = PlayerPrefs.GetInt("highscore");
+        }
+
+        Debug.Log("Social points: " + PlayerPrefs.GetInt("socialpoints") + " " + "Ecology points: " + PlayerPrefs.GetInt("ecologypoints") + " " + "Economy points: " + PlayerPrefs.GetInt("economypoints"));
+
+        Debug.Log("Highscore: " + PlayerPrefs.GetInt("highscore"));
+
         for (int i = 0; i < options.Count; i++)
         {
             Button localBtn = options[i];
             localBtn.onClick.AddListener(() => OnClick(localBtn));
         }
     }
-
 
     public void SetQuestion(Question question)
     {
@@ -43,8 +72,9 @@ public class QuizUI : MonoBehaviour
             options[i].GetComponentInChildren<TextMeshProUGUI>().text = answerList[i];
             options[i].name = answerList[i];
             options[i].image.color = normalCol;
+            options[i].GetComponentInChildren<TextMeshProUGUI>().color = Color.black;
         }
-
+        
         answered = false;
     }
 
@@ -58,12 +88,35 @@ public class QuizUI : MonoBehaviour
             if (val)
             {
                 btn.image.color = correctCol;
+                btn.GetComponentInChildren<TextMeshProUGUI>().color = Color.white;
+                
+                pointsNum = pointsNum + question.socialPoints + question.ecologyPoints + question.economyPoints;
+                pointsText.text = "Points: " + pointsNum;
+
+                totalSocialPoints = totalSocialPoints + question.socialPoints;
+                PlayerPrefs.SetInt("socialpoints", totalSocialPoints);
+
+                totalEcologyPoints = totalEcologyPoints + question.ecologyPoints;
+                PlayerPrefs.SetInt("ecologypoints", totalEcologyPoints);
+
+                totalEconomyPoints = totalEconomyPoints + question.economyPoints;
+                PlayerPrefs.SetInt("economypoints", totalEconomyPoints);
+
+                if (pointsNum > highscore)
+                {
+                    highscore = pointsNum;
+                    PlayerPrefs.SetInt("highscore", highscore);
+                }
+
+                PlayerPrefs.Save();
             }
             else
             {
                 btn.image.color = wrongCol;
+                btn.GetComponentInChildren<TextMeshProUGUI>().color = Color.white;
             }
         }
+        
     }
 
 }
