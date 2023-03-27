@@ -273,7 +273,7 @@ GameObject:
   - component: {fileID: 161279958}
   - component: {fileID: 161279957}
   m_Layer: 5
-  m_Name: Button
+  m_Name: OptionsButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -463,7 +463,7 @@ GameObject:
   - component: {fileID: 260607503}
   - component: {fileID: 260607502}
   m_Layer: 5
-  m_Name: Button
+  m_Name: StatsButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -626,8 +626,9 @@ GameObject:
   m_Component:
   - component: {fileID: 380977581}
   - component: {fileID: 380977582}
+  - component: {fileID: 380977583}
   m_Layer: 5
-  m_Name: GameObject (1)
+  m_Name: ButtonSpace
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -677,10 +678,30 @@ MonoBehaviour:
   m_ChildAlignment: 4
   m_StartCorner: 0
   m_StartAxis: 0
-  m_CellSize: {x: 540, y: 500}
+  m_CellSize: {x: 500, y: 500}
   m_Spacing: {x: 0, y: 0}
   m_Constraint: 0
   m_ConstraintCount: 2
+--- !u!114 &380977583
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 380977580}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 306cc8c2b49d7114eaa3623786fc2126, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreLayout: 0
+  m_MinWidth: -1
+  m_MinHeight: -1
+  m_PreferredWidth: -1
+  m_PreferredHeight: -1
+  m_FlexibleWidth: -1
+  m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!1 &647033521
 GameObject:
   m_ObjectHideFlags: 0
@@ -1183,7 +1204,7 @@ GameObject:
   - component: {fileID: 1147840372}
   - component: {fileID: 1147840371}
   m_Layer: 5
-  m_Name: Button
+  m_Name: HCButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1349,7 +1370,7 @@ GameObject:
   - component: {fileID: 1687683725}
   - component: {fileID: 1687683724}
   m_Layer: 5
-  m_Name: Button
+  m_Name: PlayButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1483,7 +1504,7 @@ GameObject:
   - component: {fileID: 1762448041}
   - component: {fileID: 1762448040}
   m_Layer: 5
-  m_Name: GameObject
+  m_Name: LogoSpace
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1561,8 +1582,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_IgnoreLayout: 0
-  m_MinWidth: -1
-  m_MinHeight: -1
+  m_MinWidth: 200
+  m_MinHeight: 200
   m_PreferredWidth: -1
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
@@ -1581,7 +1602,7 @@ GameObject:
   - component: {fileID: 1847188188}
   - component: {fileID: 1847188190}
   m_Layer: 5
-  m_Name: Panel
+  m_Name: LogoPlaceholder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1659,8 +1680,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_IgnoreLayout: 0
-  m_MinWidth: 0
-  m_MinHeight: 0
+  m_MinWidth: 200
+  m_MinHeight: 200
   m_PreferredWidth: 1080
   m_PreferredHeight: 840
   m_FlexibleWidth: -1
@@ -1784,8 +1805,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Padding:
-    m_Left: 0
-    m_Right: 0
+    m_Left: 10
+    m_Right: 10
     m_Top: 0
     m_Bottom: 0
   m_ChildAlignment: 1
@@ -1829,8 +1850,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3245ec927659c4140ac4f8d17403cc18, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_HorizontalFit: 2
-  m_VerticalFit: 2
+  m_HorizontalFit: 0
+  m_VerticalFit: 0
 --- !u!1 &2136587119
 GameObject:
   m_ObjectHideFlags: 0
