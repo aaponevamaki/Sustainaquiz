@@ -63,6 +63,7 @@ public class QuizManager : MonoBehaviour
 [System.Serializable]
 public class Question
 {
+    public int questionId;
     public string questionInfo;
     public List<string> options;
     public string correctAns;

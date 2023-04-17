@@ -13,7 +13,8 @@ MonoBehaviour:
   m_Name: QuestionData
   m_EditorClassIdentifier: 
   questions:
-  - questionInfo: "Miten k\xF6yhyyden v\xE4hent\xE4minen liittyy ymp\xE4rist\xF6n
+  - questionId: 0
+    questionInfo: "Miten k\xF6yhyyden v\xE4hent\xE4minen liittyy ymp\xE4rist\xF6n
       tilan parantamiseen?"
     options:
     - "K\xF6yhyyden v\xE4hent\xE4minen auttaa v\xE4hent\xE4m\xE4\xE4n ymp\xE4rist\xF6ongelmia"
@@ -23,7 +24,8 @@ MonoBehaviour:
     socialPoints: 0
     ecologyPoints: 3
     economyPoints: 0
-  - questionInfo: "Miten n\xE4lk\xE4\xE4 voidaan v\xE4hent\xE4\xE4?"
+  - questionId: 1
+    questionInfo: "Miten n\xE4lk\xE4\xE4 voidaan v\xE4hent\xE4\xE4?"
     options:
     - "Kehitt\xE4m\xE4ll\xE4 ravitsemuksen saatavuutta ja parantamalla maataloustuotteita"
     - "Sy\xF6m\xE4ll\xE4 enemm\xE4n prosessoitua ruokaa"
@@ -33,7 +35,8 @@ MonoBehaviour:
     socialPoints: 0
     ecologyPoints: 3
     economyPoints: 0
-  - questionInfo: "Mitk\xE4 ovat suurimmat haasteet \u201Dterveytt\xE4 ja hyvinvointia\u201D
+  - questionId: 2
+    questionInfo: "Mitk\xE4 ovat suurimmat haasteet \u201Dterveytt\xE4 ja hyvinvointia\u201D
       tavoitteen saavuttamisessa?"
     options:
     - "Puutteellinen terveydenhuoltoj\xE4rjestelm\xE4 ja ymp\xE4rist\xF6saasteet"
@@ -43,7 +46,8 @@ MonoBehaviour:
     socialPoints: 0
     ecologyPoints: 3
     economyPoints: 0
-  - questionInfo: "Miten hyv\xE4 koulutus liittyy kest\xE4v\xE4\xE4n kehitykseen?"
+  - questionId: 3
+    questionInfo: "Miten hyv\xE4 koulutus liittyy kest\xE4v\xE4\xE4n kehitykseen?"
     options:
     - "Mahdollistaa yksil\xF6iden kehityksen ja osallistumisen yhteiskuntaan"
     - "Hyv\xE4 koulutus auttaa ty\xF6nhaussa"
@@ -52,7 +56,8 @@ MonoBehaviour:
     socialPoints: 0
     ecologyPoints: 3
     economyPoints: 0
-  - questionInfo: "Miksi sukupuolten v\xE4linen tasa-arvo on t\xE4rke\xE4\xE4 kest\xE4v\xE4n
+  - questionId: 4
+    questionInfo: "Miksi sukupuolten v\xE4linen tasa-arvo on t\xE4rke\xE4\xE4 kest\xE4v\xE4n
       kehityksen n\xE4k\xF6kulmasta?"
     options:
     - "V\xE4hent\xE4\xE4 syrjint\xE4\xE4 ja parantaa yksil\xF6iden el\xE4m\xE4nlaatua"
@@ -62,7 +67,8 @@ MonoBehaviour:
     socialPoints: 0
     ecologyPoints: 3
     economyPoints: 0
-  - questionInfo: Miten maailmanlaajuista edullista ja puhdasta energiaa voidaan
+  - questionId: 5
+    questionInfo: Miten maailmanlaajuista edullista ja puhdasta energiaa voidaan
       parantaa?
     options:
     - "Investoimalla uusiin ja puhdaspohjaisiin energial\xE4hteisiin"
@@ -72,7 +78,8 @@ MonoBehaviour:
     socialPoints: 0
     ecologyPoints: 3
     economyPoints: 0
-  - questionInfo: "Miten puhtaan energian k\xE4ytt\xF6 voi v\xE4hent\xE4\xE4 maailmanlaajuisia
+  - questionId: 6
+    questionInfo: "Miten puhtaan energian k\xE4ytt\xF6 voi v\xE4hent\xE4\xE4 maailmanlaajuisia
       p\xE4\xE4st\xF6j\xE4?"
     options:
     - "V\xE4hent\xE4\xE4 fossiilisten polttoaineiden k\xE4ytt\xF6\xE4 ja siten ilmastop\xE4\xE4st\xF6j\xE4"
@@ -83,7 +90,8 @@ MonoBehaviour:
     socialPoints: 0
     ecologyPoints: 3
     economyPoints: 0
-  - questionInfo: "Miten ihmisarvoinen ty\xF6 ja talouskasvu edist\xE4v\xE4t kest\xE4v\xE4\xE4
+  - questionId: 7
+    questionInfo: "Miten ihmisarvoinen ty\xF6 ja talouskasvu edist\xE4v\xE4t kest\xE4v\xE4\xE4
       kehityst\xE4?"
     options:
     - "Lis\xE4\xE4 ihmisten elintasoa ja taloudellista stabiiliteettia"
@@ -93,7 +101,8 @@ MonoBehaviour:
     socialPoints: 0
     ecologyPoints: 3
     economyPoints: 0
-  - questionInfo: "Mit\xE4 tarkoittaa kest\xE4v\xE4 teollisuus YK:n kest\xE4v\xE4n
+  - questionId: 8
+    questionInfo: "Mit\xE4 tarkoittaa kest\xE4v\xE4 teollisuus YK:n kest\xE4v\xE4n
       kehityksen tavoitteiden m\xE4\xE4ritelm\xE4ss\xE4? "
     options:
     - "Ymp\xE4rist\xF6yst\xE4v\xE4llist\xE4, eettist\xE4 ja taloudellisesti kest\xE4v\xE4\xE4
@@ -105,7 +114,8 @@ MonoBehaviour:
     socialPoints: 0
     ecologyPoints: 3
     economyPoints: 0
-  - questionInfo: "Miten eriarvoisuuden v\xE4hent\xE4minen tukee kest\xE4v\xE4n kehityksen
+  - questionId: 9
+    questionInfo: "Miten eriarvoisuuden v\xE4hent\xE4minen tukee kest\xE4v\xE4n kehityksen
       tavoitteita? "
     options:
     - Luomalla tasa-arvoisemman yhteiskunnan
@@ -115,7 +125,8 @@ MonoBehaviour:
     socialPoints: 0
     ecologyPoints: 3
     economyPoints: 0
-  - questionInfo: "Mik\xE4 on YK:n tavoite kest\xE4ville kaupungeille ja yhteis\xF6ille?"
+  - questionId: 10
+    questionInfo: "Mik\xE4 on YK:n tavoite kest\xE4ville kaupungeille ja yhteis\xF6ille?"
     options:
     - "Tehd\xE4 niist\xE4 puolueettomia ja turvallisia"
     - "Tehd\xE4 niist\xE4 inklusiivisia"
@@ -124,7 +135,8 @@ MonoBehaviour:
     socialPoints: 0
     ecologyPoints: 3
     economyPoints: 0
-  - questionInfo: "Miten kest\xE4v\xE4t kaupungit ja yhteis\xF6t v\xE4hent\xE4v\xE4t
+  - questionId: 11
+    questionInfo: "Miten kest\xE4v\xE4t kaupungit ja yhteis\xF6t v\xE4hent\xE4v\xE4t
       ymp\xE4rist\xF6riskej\xE4?"
     options:
     - "V\xE4hent\xE4m\xE4ll\xE4 maank\xE4ytt\xF6\xE4"
@@ -134,7 +146,8 @@ MonoBehaviour:
     socialPoints: 0
     ecologyPoints: 3
     economyPoints: 0
-  - questionInfo: "Miten \"vastuullinen kulutus\" liittyy kest\xE4v\xE4\xE4n kehitykseen?"
+  - questionId: 12
+    questionInfo: "Miten \"vastuullinen kulutus\" liittyy kest\xE4v\xE4\xE4n kehitykseen?"
     options:
     - "Se edist\xE4\xE4 ymp\xE4rist\xF6n kest\xE4vyytt\xE4 ja sosiaalista vastuullisuutta
       tuotantoprosessissa ja kulutuksessa"
@@ -145,7 +158,8 @@ MonoBehaviour:
     socialPoints: 0
     ecologyPoints: 3
     economyPoints: 0
-  - questionInfo: "Miten \"vastuullinen kulutus\" vaikuttaa ymp\xE4rist\xF6\xF6n
+  - questionId: 13
+    questionInfo: "Miten \"vastuullinen kulutus\" vaikuttaa ymp\xE4rist\xF6\xF6n
       ja yhteiskuntaan?"
     options:
     - "V\xE4hent\xE4\xE4 ymp\xE4rist\xF6haittoja"
@@ -155,7 +169,8 @@ MonoBehaviour:
     socialPoints: 0
     ecologyPoints: 3
     economyPoints: 0
-  - questionInfo: "Mit\xE4 tarkoittaa ilmastotekojen tekeminen YK:n kest\xE4v\xE4n
+  - questionId: 14
+    questionInfo: "Mit\xE4 tarkoittaa ilmastotekojen tekeminen YK:n kest\xE4v\xE4n
       kehityksen puitteissa?"
     options:
     - "Toimia, joilla pyrit\xE4\xE4n v\xE4hent\xE4m\xE4\xE4n ilmastonmuutoksen aiheuttamia
@@ -168,7 +183,8 @@ MonoBehaviour:
     socialPoints: 0
     ecologyPoints: 3
     economyPoints: 0
-  - questionInfo: "Mitk\xE4 ovat esimerkkej\xE4 ilmastoteoista?"
+  - questionId: 15
+    questionInfo: "Mitk\xE4 ovat esimerkkej\xE4 ilmastoteoista?"
     options:
     - "Energiankulutuksen v\xE4hent\xE4minen"
     - "Uusiutuvan energian k\xE4yt\xF6n lis\xE4\xE4minen ja hiilidioksidip\xE4\xE4st\xF6jen
@@ -178,7 +194,8 @@ MonoBehaviour:
     socialPoints: 0
     ecologyPoints: 3
     economyPoints: 0
-  - questionInfo: "Miksi ilmastotekojen tekeminen on t\xE4rke\xE4\xE4?"
+  - questionId: 16
+    questionInfo: "Miksi ilmastotekojen tekeminen on t\xE4rke\xE4\xE4?"
     options:
     - "Ilmastonmuutos aiheuttaa haittoja ymp\xE4rist\xF6lle, taloudelle ja ihmisten
       hyvinvoinnille"
@@ -188,7 +205,8 @@ MonoBehaviour:
     socialPoints: 0
     ecologyPoints: 3
     economyPoints: 0
-  - questionInfo: "Mit\xE4 tarkoittaa \"vedenalainen el\xE4m\xE4\" YK:n kest\xE4v\xE4n
+  - questionId: 17
+    questionInfo: "Mit\xE4 tarkoittaa \"vedenalainen el\xE4m\xE4\" YK:n kest\xE4v\xE4n
       kehityksen tavoitteena?"
     options:
     - "Suojella ja parantaa meri- ja j\xE4rviel\xE4inten elinymp\xE4rist\xF6j\xE4
@@ -200,7 +218,8 @@ MonoBehaviour:
     socialPoints: 0
     ecologyPoints: 3
     economyPoints: 0
-  - questionInfo: "Mihin haasteisiin \"vedenalainen el\xE4m\xE4\" -tavoite vastaa?"
+  - questionId: 18
+    questionInfo: "Mihin haasteisiin \"vedenalainen el\xE4m\xE4\" -tavoite vastaa?"
     options:
     - "Merieli\xF6iden suojeluun liittyv\xE4\xE4n v\xE4henemiseen"
     - "Rehev\xF6itymiseen"
@@ -209,7 +228,8 @@ MonoBehaviour:
     socialPoints: 0
     ecologyPoints: 3
     economyPoints: 0
-  - questionInfo: "Miten \"vedenalainen el\xE4m\xE4\" -tavoite voidaan saavuttaa?"
+  - questionId: 19
+    questionInfo: "Miten \"vedenalainen el\xE4m\xE4\" -tavoite voidaan saavuttaa?"
     options:
     - "Edist\xE4m\xE4ll\xE4 rehev\xF6itymist\xE4"
     - "V\xE4hent\xE4m\xE4ll\xE4 merieli\xF6iden elinymp\xE4rist\xF6j\xE4"
@@ -218,7 +238,8 @@ MonoBehaviour:
     socialPoints: 0
     ecologyPoints: 3
     economyPoints: 0
-  - questionInfo: "Mitk\xE4 ovat \"vedenalainen el\xE4m\xE4\" -tavoitteen t\xE4rkeimm\xE4t
+  - questionId: 20
+    questionInfo: "Mitk\xE4 ovat \"vedenalainen el\xE4m\xE4\" -tavoitteen t\xE4rkeimm\xE4t
       edistymisen mittarit?"
     options:
     - "Meri- ja j\xE4rviel\xE4inten elinymp\xE4rist\xF6jen suojelun ja parantamisen
@@ -229,7 +250,8 @@ MonoBehaviour:
     socialPoints: 0
     ecologyPoints: 3
     economyPoints: 0
-  - questionInfo: "Miten maanp\xE4\xE4llinen el\xE4m\xE4 liittyy YK:n kest\xE4v\xE4n
+  - questionId: 21
+    questionInfo: "Miten maanp\xE4\xE4llinen el\xE4m\xE4 liittyy YK:n kest\xE4v\xE4n
       kehityksen tavoitteisiin?"
     options:
     - "Se liittyy elinymp\xE4rist\xF6jen ja biodiversiteetin s\xE4ilytt\xE4miseen
@@ -241,7 +263,8 @@ MonoBehaviour:
     socialPoints: 0
     ecologyPoints: 3
     economyPoints: 0
-  - questionInfo: "Miten maap\xE4\xE4llinen el\xE4m\xE4 on t\xE4rke\xE4\xE4 ihmiskunnalle?"
+  - questionId: 22
+    questionInfo: "Miten maap\xE4\xE4llinen el\xE4m\xE4 on t\xE4rke\xE4\xE4 ihmiskunnalle?"
     options:
     - "Se tarjoaa luonnonvaroja sek\xE4 tarjoaa suojan ja elinymp\xE4rist\xF6n monille
       el\xE4inlajeille"
@@ -252,7 +275,8 @@ MonoBehaviour:
     socialPoints: 0
     ecologyPoints: 3
     economyPoints: 0
-  - questionInfo: "Miksi rauha, oikeudenmukaisuus ja hyv\xE4 hallinto ovat t\xE4rkeit\xE4
+  - questionId: 23
+    questionInfo: "Miksi rauha, oikeudenmukaisuus ja hyv\xE4 hallinto ovat t\xE4rkeit\xE4
       YK:n kest\xE4v\xE4n kehityksen tavoitteiden saavuttamisessa?"
     options:
     - "Ilman n\xE4it\xE4 kolmea ei voida edist\xE4\xE4 muita kest\xE4v\xE4n kehityksen
@@ -264,7 +288,8 @@ MonoBehaviour:
     socialPoints: 0
     ecologyPoints: 3
     economyPoints: 0
-  - questionInfo: "Miten voimme edist\xE4\xE4 rauhaa ja oikeudenmukaisuutta omassa
+  - questionId: 24
+    questionInfo: "Miten voimme edist\xE4\xE4 rauhaa ja oikeudenmukaisuutta omassa
       el\xE4m\xE4ss\xE4mme?"
     options:
     - "Osallistumalla aktiivisesti yhteis\xF6mme ja maailman kehitt\xE4miseen"
@@ -274,7 +299,8 @@ MonoBehaviour:
     socialPoints: 0
     ecologyPoints: 3
     economyPoints: 0
-  - questionInfo: "Miksi tarvitaan yhteisty\xF6t\xE4 ja kumppanuutta kest\xE4v\xE4n
+  - questionId: 25
+    questionInfo: "Miksi tarvitaan yhteisty\xF6t\xE4 ja kumppanuutta kest\xE4v\xE4n
       kehityksen saavuttamiseksi?"
     options:
     - "Kest\xE4v\xE4n kehityksen haasteet ovat monimutkaisia ja laajoja"
@@ -284,7 +310,8 @@ MonoBehaviour:
     socialPoints: 0
     ecologyPoints: 3
     economyPoints: 0
-  - questionInfo: "Mitk\xE4 ovat esimerkkej\xE4 yhteisty\xF6st\xE4 ja kumppanuudesta
+  - questionId: 26
+    questionInfo: "Mitk\xE4 ovat esimerkkej\xE4 yhteisty\xF6st\xE4 ja kumppanuudesta
       ymp\xE4rist\xF6nsuojelussa?"
     options:
     - "Hallitusten ja yritysten v\xE4liset sopimukset ymp\xE4rist\xF6nsuojelusta"
@@ -294,7 +321,8 @@ MonoBehaviour:
     socialPoints: 0
     ecologyPoints: 3
     economyPoints: 0
-  - questionInfo: "Miten eri yhteiskunnan osat voivat tukea tavoitetta \"Ei k\xF6yhyytt\xE4\"?"
+  - questionId: 27
+    questionInfo: "Miten eri yhteiskunnan osat voivat tukea tavoitetta \"Ei k\xF6yhyytt\xE4\"?"
     options:
     - "Yksil\xF6t voivat auttaa k\xF6yhi\xE4"
     - "Hallitukset voivat puolustaa k\xF6yhien ihmisten asemaa"
@@ -303,7 +331,8 @@ MonoBehaviour:
     socialPoints: 3
     ecologyPoints: 0
     economyPoints: 0
-  - questionInfo: "Miten yhteiskunnan eri osat voivat tukea tavoitteen \"Ei n\xE4lk\xE4\xE4\"
+  - questionId: 28
+    questionInfo: "Miten yhteiskunnan eri osat voivat tukea tavoitteen \"Ei n\xE4lk\xE4\xE4\"
       toteutumista?"
     options:
     - "Lahjoittamalla ruoka-apuohjelmiin tai tukemalla maatalouden kehitt\xE4mist\xE4"
@@ -313,7 +342,8 @@ MonoBehaviour:
     socialPoints: 3
     ecologyPoints: 0
     economyPoints: 0
-  - questionInfo: "Miten yksil\xF6t voivat omalta osaltaan edist\xE4\xE4 tavoitteen
+  - questionId: 29
+    questionInfo: "Miten yksil\xF6t voivat omalta osaltaan edist\xE4\xE4 tavoitteen
       \"terveytt\xE4 ja hyvinvointia\" saavuttamista?"
     options:
     - "Huolehtimalla terveellisest\xE4 ruokavaliosta"
@@ -323,7 +353,8 @@ MonoBehaviour:
     socialPoints: 3
     ecologyPoints: 0
     economyPoints: 0
-  - questionInfo: "Miten hyv\xE4 koulutus vaikuttaa naisten asemaan yhteiskunnassa?"
+  - questionId: 30
+    questionInfo: "Miten hyv\xE4 koulutus vaikuttaa naisten asemaan yhteiskunnassa?"
     options:
     - "Parantaa heid\xE4n asemaansa yhteiskunnassa"
     - "Heikent\xE4\xE4 heid\xE4n asemaansa yhteiskunnassa"
@@ -332,7 +363,8 @@ MonoBehaviour:
     socialPoints: 3
     ecologyPoints: 0
     economyPoints: 0
-  - questionInfo: "Miten hyv\xE4 koulutus voi auttaa v\xE4hent\xE4m\xE4\xE4n syrjint\xE4\xE4?"
+  - questionId: 31
+    questionInfo: "Miten hyv\xE4 koulutus voi auttaa v\xE4hent\xE4m\xE4\xE4n syrjint\xE4\xE4?"
     options:
     - "Lis\xE4\xE4 ymm\xE4rryst\xE4 ja tasa-arvon k\xE4sityst\xE4 yhteiskunnassa"
     - "Hyv\xE4 koulutus tuo lis\xE4\xE4 valtaa"
@@ -341,7 +373,8 @@ MonoBehaviour:
     socialPoints: 3
     ecologyPoints: 0
     economyPoints: 0
-  - questionInfo: "Miten sukupuolten v\xE4lisen tasa-arvon saavuttaminen on mahdollista
+  - questionId: 32
+    questionInfo: "Miten sukupuolten v\xE4lisen tasa-arvon saavuttaminen on mahdollista
       k\xE4yt\xE4nn\xF6ss\xE4?"
     options:
     - "Tehd\xE4\xE4n lains\xE4\xE4d\xE4nn\xF6n muutoksia"
@@ -351,7 +384,8 @@ MonoBehaviour:
     socialPoints: 3
     ecologyPoints: 0
     economyPoints: 0
-  - questionInfo: "Mit\xE4 tarkoittaa sukupuolten v\xE4linen tasa-arvo kest\xE4v\xE4n
+  - questionId: 33
+    questionInfo: "Mit\xE4 tarkoittaa sukupuolten v\xE4linen tasa-arvo kest\xE4v\xE4n
       kehityksen tavoitteissa?"
     options:
     - "Sukupuolten v\xE4linen tasa-arvo ei ole kest\xE4v\xE4n kehityksen tavoite"
@@ -361,7 +395,8 @@ MonoBehaviour:
     socialPoints: 3
     ecologyPoints: 0
     economyPoints: 0
-  - questionInfo: "Miksi edullinen ja puhdas energia on t\xE4rke\xE4\xE4 kest\xE4v\xE4n
+  - questionId: 34
+    questionInfo: "Miksi edullinen ja puhdas energia on t\xE4rke\xE4\xE4 kest\xE4v\xE4n
       kehityksen tavoitteessa?"
     options:
     - "Se v\xE4hent\xE4\xE4 ymp\xE4rist\xF6haittoja ja ilmastop\xE4\xE4st\xF6j\xE4"
@@ -371,7 +406,8 @@ MonoBehaviour:
     socialPoints: 2
     ecologyPoints: 1
     economyPoints: 0
-  - questionInfo: "Miten ihmisarvoiset ty\xF6paikat vaikuttavat ihmisten elintasoon?"
+  - questionId: 35
+    questionInfo: "Miten ihmisarvoiset ty\xF6paikat vaikuttavat ihmisten elintasoon?"
     options:
     - "Lis\xE4\xE4v\xE4t ihmisten elintasoa ja turvallisuutta sek\xE4 vahvistavat
       taloudellista turvallisuutta"
@@ -383,7 +419,8 @@ MonoBehaviour:
     socialPoints: 3
     ecologyPoints: 0
     economyPoints: 0
-  - questionInfo: "Millaisilla toimilla voidaan edist\xE4\xE4 kest\xE4v\xE4\xE4 teollisuuden
+  - questionId: 36
+    questionInfo: "Millaisilla toimilla voidaan edist\xE4\xE4 kest\xE4v\xE4\xE4 teollisuuden
       ja innovaatioiden kehityst\xE4?"
     options:
     - Investoimalla uusiin teknologioihin
@@ -393,7 +430,8 @@ MonoBehaviour:
     socialPoints: 3
     ecologyPoints: 0
     economyPoints: 0
-  - questionInfo: "Mink\xE4laisia toimenpiteit\xE4 tarvitaan eriarvoisuuden v\xE4hent\xE4miseksi?"
+  - questionId: 37
+    questionInfo: "Mink\xE4laisia toimenpiteit\xE4 tarvitaan eriarvoisuuden v\xE4hent\xE4miseksi?"
     options:
     - "Ep\xE4tasa-arvoisen palkkausj\xE4rjestelm\xE4n kehitt\xE4mist\xE4"
     - Koulutusmahdollisuuksien parantamista
@@ -402,7 +440,8 @@ MonoBehaviour:
     socialPoints: 3
     ecologyPoints: 0
     economyPoints: 0
-  - questionInfo: "Miten eriarvoisuuden v\xE4hent\xE4minen vaikuttaa yhteiskunnan
+  - questionId: 38
+    questionInfo: "Miten eriarvoisuuden v\xE4hent\xE4minen vaikuttaa yhteiskunnan
       ja ihmisten hyvinvointiin?"
     options:
     - "Se ehk\xE4isee syrj\xE4ytymist\xE4"
@@ -412,7 +451,8 @@ MonoBehaviour:
     socialPoints: 3
     ecologyPoints: 0
     economyPoints: 0
-  - questionInfo: "Miten kest\xE4v\xE4t kaupungit ja yhteis\xF6t parantavat ihmisten
+  - questionId: 39
+    questionInfo: "Miten kest\xE4v\xE4t kaupungit ja yhteis\xF6t parantavat ihmisten
       el\xE4m\xE4nlaatua?"
     options:
     - "Paremmat mahdollisuudet p\xE4ivitt\xE4isiin palveluihin"
@@ -422,7 +462,8 @@ MonoBehaviour:
     socialPoints: 3
     ecologyPoints: 0
     economyPoints: 0
-  - questionInfo: "Miten kest\xE4v\xE4t kaupungit ja yhteis\xF6t edist\xE4v\xE4t
+  - questionId: 40
+    questionInfo: "Miten kest\xE4v\xE4t kaupungit ja yhteis\xF6t edist\xE4v\xE4t
       sosiaalista ja taloudellista tasa-arvoa?"
     options:
     - Huomioiden kaikkien asukkaiden tarpeet ja toiveet suunnittelussa
@@ -432,7 +473,8 @@ MonoBehaviour:
     socialPoints: 3
     ecologyPoints: 0
     economyPoints: 0
-  - questionInfo: "Miten maap\xE4\xE4llinen el\xE4m\xE4 liittyy YK:n kest\xE4v\xE4n
+  - questionId: 41
+    questionInfo: "Miten maap\xE4\xE4llinen el\xE4m\xE4 liittyy YK:n kest\xE4v\xE4n
       kehityksen tavoitteeseen \"terveytt\xE4 ja hyvinvointia\"?"
     options:
     - "Maanp\xE4\xE4llinen el\xE4m\xE4 tarjoaa elint\xE4rkeit\xE4 luonnonvaroja"
@@ -442,7 +484,8 @@ MonoBehaviour:
     socialPoints: 3
     ecologyPoints: 0
     economyPoints: 0
-  - questionInfo: "Mik\xE4 on rauhan, oikeudenmukaisuuden ja hyv\xE4n hallinnon tavoitteen
+  - questionId: 42
+    questionInfo: "Mik\xE4 on rauhan, oikeudenmukaisuuden ja hyv\xE4n hallinnon tavoitteen
       tarkoitus?"
     options:
     - "Edist\xE4\xE4 ep\xE4tasa-arvoa maailmassa"
@@ -452,7 +495,8 @@ MonoBehaviour:
     socialPoints: 3
     ecologyPoints: 0
     economyPoints: 0
-  - questionInfo: "Miten \"rauha, oikeudenmukaisuus ja hyv\xE4 hallinto\" tavoite
+  - questionId: 43
+    questionInfo: "Miten \"rauha, oikeudenmukaisuus ja hyv\xE4 hallinto\" tavoite
       toteutuu?"
     options:
     - Parantamalla ihmisoikeuksien toteutumista
@@ -463,7 +507,8 @@ MonoBehaviour:
     socialPoints: 3
     ecologyPoints: 0
     economyPoints: 0
-  - questionInfo: "Millaisia haasteita \"rauha, oikeudenmukaisuus ja hyv\xE4 hallinto\"
+  - questionId: 44
+    questionInfo: "Millaisia haasteita \"rauha, oikeudenmukaisuus ja hyv\xE4 hallinto\"
       tavoitteen saavuttamisessa on?"
     options:
     - "Konfliktit ja v\xE4kivalta"
@@ -473,7 +518,8 @@ MonoBehaviour:
     socialPoints: 3
     ecologyPoints: 0
     economyPoints: 0
-  - questionInfo: "Miten voimme edist\xE4\xE4 \"rauha, oikeudenmukaisuus ja hyv\xE4
+  - questionId: 45
+    questionInfo: "Miten voimme edist\xE4\xE4 \"rauha, oikeudenmukaisuus ja hyv\xE4
       hallinto\" tavoitetta omassa el\xE4m\xE4ss\xE4mme?"
     options:
     - Tukemalla ihmisoikeuksia ja demokratiaa
@@ -483,7 +529,8 @@ MonoBehaviour:
     socialPoints: 3
     ecologyPoints: 0
     economyPoints: 0
-  - questionInfo: "Miten yhteisty\xF6 ja kumppanuus voivat edist\xE4\xE4 ihmisten
+  - questionId: 46
+    questionInfo: "Miten yhteisty\xF6 ja kumppanuus voivat edist\xE4\xE4 ihmisten
       hyvinvointia maailmassa?"
     options:
     - Ne mahdollistavat laajemman ja tehokkaamman toiminnan eri aloilla
@@ -493,7 +540,8 @@ MonoBehaviour:
     socialPoints: 3
     ecologyPoints: 0
     economyPoints: 0
-  - questionInfo: "Mitk\xE4 ovat tehokkaimpia tapoja v\xE4hent\xE4\xE4 k\xF6yhyytt\xE4?"
+  - questionId: 47
+    questionInfo: "Mitk\xE4 ovat tehokkaimpia tapoja v\xE4hent\xE4\xE4 k\xF6yhyytt\xE4?"
     options:
     - "Parantamalla mahdollisuuksia ty\xF6llisty\xE4"
     - "Tekem\xE4ll\xE4 enemm\xE4n t\xF6it\xE4"
@@ -502,7 +550,8 @@ MonoBehaviour:
     socialPoints: 0
     ecologyPoints: 0
     economyPoints: 3
-  - questionInfo: "Mik\xE4 on n\xE4l\xE4nh\xE4d\xE4n yleisin syy?"
+  - questionId: 48
+    questionInfo: "Mik\xE4 on n\xE4l\xE4nh\xE4d\xE4n yleisin syy?"
     options:
     - "K\xE4ytett\xE4vien ruokavarojen loppuminen"
     - "Liian v\xE4h\xE4inen sy\xF6minen"
@@ -511,7 +560,8 @@ MonoBehaviour:
     socialPoints: 0
     ecologyPoints: 0
     economyPoints: 3
-  - questionInfo: "Mitk\xE4 ovat tavoitteen \"Ei n\xE4lk\xE4\xE4\" toimenpiteit\xE4?"
+  - questionId: 49
+    questionInfo: "Mitk\xE4 ovat tavoitteen \"Ei n\xE4lk\xE4\xE4\" toimenpiteit\xE4?"
     options:
     - Taloudellisten olosuhteiden parantaminen
     - "Maatalouden kehitt\xE4minen"
@@ -520,7 +570,8 @@ MonoBehaviour:
     socialPoints: 0
     ecologyPoints: 0
     economyPoints: 3
-  - questionInfo: "Miten tavoite \"terveytt\xE4 ja hyvinvointia\" voi edist\xE4\xE4
+  - questionId: 50
+    questionInfo: "Miten tavoite \"terveytt\xE4 ja hyvinvointia\" voi edist\xE4\xE4
       muita kest\xE4v\xE4n kehityksen tavoitteita?"
     options:
     - "Edist\xE4m\xE4ll\xE4 talouskasvua ja v\xE4hent\xE4m\xE4ll\xE4 k\xF6yhyytt\xE4"
@@ -530,7 +581,8 @@ MonoBehaviour:
     socialPoints: 0
     ecologyPoints: 0
     economyPoints: 3
-  - questionInfo: "Miten sukupuolten v\xE4lisen tasa-arvon edist\xE4minen vaikuttaa
+  - questionId: 51
+    questionInfo: "Miten sukupuolten v\xE4lisen tasa-arvon edist\xE4minen vaikuttaa
       yhteiskunnan kehitykseen?"
     options:
     - "Se heikent\xE4\xE4 yksil\xF6iden mahdollisuuksia osallistua yhteiskunnan el\xE4m\xE4\xE4n"
@@ -540,7 +592,8 @@ MonoBehaviour:
     socialPoints: 0
     ecologyPoints: 0
     economyPoints: 3
-  - questionInfo: "Miten edullisen ja puhtaan energian saatavuuden parantaminen edist\xE4\xE4
+  - questionId: 52
+    questionInfo: "Miten edullisen ja puhtaan energian saatavuuden parantaminen edist\xE4\xE4
       taloudellista kehityst\xE4?"
     options:
     - "Mahdollistaa tehokkaamman ja ymp\xE4rist\xF6yst\xE4v\xE4llisemm\xE4n toiminnan"
@@ -551,7 +604,8 @@ MonoBehaviour:
     socialPoints: 0
     ecologyPoints: 0
     economyPoints: 3
-  - questionInfo: "Miksi innovaatiot ovat t\xE4rkeit\xE4 YK:n kest\xE4v\xE4n kehityksen
+  - questionId: 53
+    questionInfo: "Miksi innovaatiot ovat t\xE4rkeit\xE4 YK:n kest\xE4v\xE4n kehityksen
       tavoitteiden saavuttamisessa?"
     options:
     - "Jotta keksitt\xE4isiin, miten voidaan tehd\xE4 yksinkertaisesta asiasta monimutkainen"
@@ -561,7 +615,8 @@ MonoBehaviour:
     socialPoints: 0
     ecologyPoints: 0
     economyPoints: 3
-  - questionInfo: "Miten eriarvoisuuden v\xE4hent\xE4minen liittyy taloudelliseen
+  - questionId: 54
+    questionInfo: "Miten eriarvoisuuden v\xE4hent\xE4minen liittyy taloudelliseen
       kehitykseen?"
     options:
     - "Lis\xE4\xE4 ihmisten mahdollisuuksia osallistua talouteen ja tehd\xE4 taloudellisia
@@ -573,7 +628,8 @@ MonoBehaviour:
     socialPoints: 0
     ecologyPoints: 0
     economyPoints: 3
-  - questionInfo: "Miten yksil\xF6t voivat edist\xE4\xE4 \"vastuullista kulutusta\"?"
+  - questionId: 55
+    questionInfo: "Miten yksil\xF6t voivat edist\xE4\xE4 \"vastuullista kulutusta\"?"
     options:
     - "Valitsemalla ymp\xE4rist\xF6yst\xE4v\xE4llisi\xE4 ja sosiaalisesti vastuullisia
       tuotteita"
@@ -583,7 +639,8 @@ MonoBehaviour:
     socialPoints: 0
     ecologyPoints: 0
     economyPoints: 3
-  - questionInfo: "Miten yritykset voivat edist\xE4\xE4 \"vastuullista kulutusta\"?"
+  - questionId: 56
+    questionInfo: "Miten yritykset voivat edist\xE4\xE4 \"vastuullista kulutusta\"?"
     options:
     - Huolehtimalla vastuullisista tuotantoprosesseista
     - Tukemalla halpatuote tehtaita
@@ -592,7 +649,8 @@ MonoBehaviour:
     socialPoints: 0
     ecologyPoints: 0
     economyPoints: 3
-  - questionInfo: "Miten ilmastotekojen tekeminen voi edist\xE4\xE4 taloudellista
+  - questionId: 57
+    questionInfo: "Miten ilmastotekojen tekeminen voi edist\xE4\xE4 taloudellista
       kasvua ja kehityst\xE4?"
     options:
     - "Luomalla uusia ty\xF6paikkoja ja investointeja uusiutuvan energian ja v\xE4h\xE4hiilisen
@@ -603,7 +661,8 @@ MonoBehaviour:
     socialPoints: 0
     ecologyPoints: 0
     economyPoints: 3
-  - questionInfo: "Miten maanp\xE4\xE4llist\xE4 el\xE4m\xE4\xE4 voidaan suojella
+  - questionId: 58
+    questionInfo: "Miten maanp\xE4\xE4llist\xE4 el\xE4m\xE4\xE4 voidaan suojella
       YK:n kest\xE4v\xE4n kehityksen puitteissa?"
     options:
     - Luonnonsuojelualueiden perustamisella
@@ -613,7 +672,8 @@ MonoBehaviour:
     socialPoints: 0
     ecologyPoints: 0
     economyPoints: 3
-  - questionInfo: "Miksi tarvitaan yhteisty\xF6t\xE4 ja kumppanuutta kest\xE4v\xE4n
+  - questionId: 59
+    questionInfo: "Miksi tarvitaan yhteisty\xF6t\xE4 ja kumppanuutta kest\xE4v\xE4n
       kehityksen saavuttamiseksi?"
     options:
     - "Yhteisty\xF6 mahdollistaa eri tahojen voimavarojen yhdist\xE4misen"
@@ -623,7 +683,8 @@ MonoBehaviour:
     socialPoints: 0
     ecologyPoints: 0
     economyPoints: 3
-  - questionInfo: "Mitk\xE4 ovat esimerkkej\xE4 yhteisty\xF6st\xE4 ja kumppanuudesta
+  - questionId: 60
+    questionInfo: "Mitk\xE4 ovat esimerkkej\xE4 yhteisty\xF6st\xE4 ja kumppanuudesta
       talouskasvun edist\xE4misess\xE4?"
     options:
     - "Hallitusten ja yritysten v\xE4liset sopimukset talouskasvusta ja investoinneista"
@@ -634,7 +695,8 @@ MonoBehaviour:
     socialPoints: 0
     ecologyPoints: 0
     economyPoints: 3
-  - questionInfo: "Mit\xE4 on kest\xE4v\xE4 kehitys?"
+  - questionId: 61
+    questionInfo: "Mit\xE4 on kest\xE4v\xE4 kehitys?"
     options:
     - "Muutosta, joka turvaa nykyisille ja tuleville sukupolville hyv\xE4t el\xE4misen
       mahdollisuudet"
