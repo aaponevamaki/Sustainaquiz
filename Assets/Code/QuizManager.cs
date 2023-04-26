@@ -10,35 +10,37 @@ public class QuizManager : MonoBehaviour
 
     private List<Question> questions;
 
-    private List<Question> unansweredQuestions;
+    List<Question> unansweredQuestions;
 
-    private List<Question> answeredQuestions;
+    List<Question> answeredQuestions;
 
-    private List<Question> selectedQuestions;
+    List<Question> selectedQuestions;
 
     private Question selectedQuestion;
 
-    // Start is called before the first frame update
+    private int counter = 0;
+
     void Start()
     {
-        //questions = quizData.questions;
+        questions = quizData.questions;
 
-        for (int i = 0; i < quizData.questions.Count(); i++)
+        for (int i = 0; i < questions.Count(); i++)
         {
             if (PlayerPrefs.HasKey("answeredId_" + i ))
             {
-                answeredQuestions.Add(quizData.questions [i]);
+                answeredQuestions.Add(questions [i]);
             }
             else
             {
-                //unansweredQuestions.Add(quizData.questions [i]);
+                unansweredQuestions.Add(questions [i]);
             }
         }
 
+        BuildQuestionList();
         SelectQuestion();
     }
 
-    void buildQuestionList()
+    void BuildQuestionList()
     {
         for (int i = 0; i < 10; i++)
         {
@@ -56,12 +58,13 @@ public class QuizManager : MonoBehaviour
 
     void SelectQuestion()
     {
-        int val = Random.Range(0, 10);
-        selectedQuestion = unansweredQuestions[val];
+        selectedQuestion = selectedQuestions[counter];
 
         quizUI.SetQuestion(selectedQuestion);
 
-        unansweredQuestions.RemoveAt(val);
+        selectedQuestions.RemoveAt(counter);
+
+        counter++;
     }
 
     public bool Answer(string answered)
