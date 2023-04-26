@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using System.Linq;
 
 public class QuizManager : MonoBehaviour
@@ -10,15 +11,17 @@ public class QuizManager : MonoBehaviour
 
     private List<Question> questions;
 
-    List<Question> unansweredQuestions;
+    private List<Question> unansweredQuestions = new List<Question>();
 
-    List<Question> answeredQuestions;
+    private List<Question> answeredQuestions = new List<Question>();
 
-    List<Question> selectedQuestions;
+    private List<Question> selectedQuestions = new List<Question>(); 
 
     private Question selectedQuestion;
 
     private int counter = 0;
+
+    private int selection;
 
     void Start()
     {
@@ -58,13 +61,26 @@ public class QuizManager : MonoBehaviour
 
     void SelectQuestion()
     {
-        selectedQuestion = selectedQuestions[counter];
+        if (counter > 9)
+        {
+            SceneManager.LoadScene("MainMenu");
+        }
+        else
+        {
+        Debug.Log(counter);
+        Debug.Log(selectedQuestions.Count());
+
+        selection = Random.Range(0, selectedQuestions.Count());
+
+        selectedQuestion = selectedQuestions[selection];
 
         quizUI.SetQuestion(selectedQuestion);
 
-        selectedQuestions.RemoveAt(counter);
+        selectedQuestions.RemoveAt(selection);
 
         counter++;
+        }
+        
     }
 
     public bool Answer(string answered)
