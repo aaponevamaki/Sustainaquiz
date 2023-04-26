@@ -102,6 +102,8 @@ public class QuizUI : MonoBehaviour
                 totalEconomyPoints = totalEconomyPoints + question.economyPoints;
                 PlayerPrefs.SetInt("economypoints", totalEconomyPoints);
 
+                PlayerPrefs.SetInt("answeredId_" + question.questionId, question.questionId);
+
                 if (pointsNum > highscore)
                 {
                     highscore = pointsNum;

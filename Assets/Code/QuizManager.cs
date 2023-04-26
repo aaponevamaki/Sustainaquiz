@@ -10,31 +10,53 @@ public class QuizManager : MonoBehaviour
 
     private List<Question> questions;
 
-    private static List<Question> unansweredQuestions;
+    private List<Question> unansweredQuestions;
+
+    private List<Question> answeredQuestions;
+
+    private List<Question> selectedQuestions;
 
     private Question selectedQuestion;
 
     // Start is called before the first frame update
     void Start()
     {
-        questions = quizData.questions;
+        //questions = quizData.questions;
 
-        unansweredQuestions = questions.ToList<Question>();
+        for (int i = 0; i < quizData.questions.Count(); i++)
+        {
+            if (PlayerPrefs.HasKey("answeredId_" + i ))
+            {
+                answeredQuestions.Add(quizData.questions [i]);
+            }
+            else
+            {
+                //unansweredQuestions.Add(quizData.questions [i]);
+            }
+        }
 
         SelectQuestion();
     }
 
-    void Update()
+    void buildQuestionList()
     {
-        if (unansweredQuestions == null || unansweredQuestions.Count == 0)
+        for (int i = 0; i < 10; i++)
         {
-            unansweredQuestions = questions.ToList<Question>();
+            int random = Random.Range(0,1);
+            if (random > 0.75)
+            {
+                selectedQuestions.Add(answeredQuestions [Random.Range(0, answeredQuestions.Count() -1)]);
+            }
+            else
+            {
+                selectedQuestions.Add(unansweredQuestions [Random.Range(0, unansweredQuestions.Count() -1)]);
+            }
         }
     }
 
     void SelectQuestion()
     {
-        int val = Random.Range(0, unansweredQuestions.Count);
+        int val = Random.Range(0, 10);
         selectedQuestion = unansweredQuestions[val];
 
         quizUI.SetQuestion(selectedQuestion);
