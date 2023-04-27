@@ -8,6 +8,7 @@ public class QuizManager : MonoBehaviour
 {
     [SerializeField] private QuizUI quizUI;
     [SerializeField] private QuizDataScriptable quizData;
+    [SerializeField] private QuizDataScriptable quizDataEn;
 
     private List<Question> questions;
 
@@ -25,7 +26,15 @@ public class QuizManager : MonoBehaviour
 
     void Start()
     {
-        questions = quizData.questions;
+        if (PlayerPrefs.GetString("Language") == "Finnish")
+        {
+            questions = quizData.questions;
+        }
+        
+        if (PlayerPrefs.GetString("Language") == "English")
+        {
+            questions = quizDataEn.questions;
+        }
 
         for (int i = 0; i < questions.Count(); i++)
         {

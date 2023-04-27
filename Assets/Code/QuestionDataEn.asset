@@ -1,0 +1,677 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c0a1f56ab6b27f4787a232b6d48a6bc, type: 3}
+  m_Name: QuestionDataEn
+  m_EditorClassIdentifier: 
+  questions:
+  - questionId: 0
+    questionInfo: How is reducing poverty related to improving the state of the environment?
+    options:
+    - Reducing poverty helps reducing environmental problems
+    - Reducing poverty helps increasing environmental problems
+    - Neither of the options
+    correctAns: Reducing poverty helps reducing environmental problems
+    socialPoints: 0
+    ecologyPoints: 3
+    economyPoints: 0
+  - questionId: 1
+    questionInfo: How can hunger be reduced?
+    options:
+    - By developing access to nutrition and improving agricultural products
+    - By eating more processed food
+    - Both are correct
+    correctAns: By developing access to nutrition and improving agricultural products
+    socialPoints: 0
+    ecologyPoints: 3
+    economyPoints: 0
+  - questionId: 2
+    questionInfo: What are the biggest challenges in achieving the goal of "health
+      and well-being"?
+    options:
+    - Inadequate healthcare system and environmental pollution
+    - Littering
+    - Neither of the options
+    correctAns: Inadequate healthcare system and environmental pollution
+    socialPoints: 0
+    ecologyPoints: 3
+    economyPoints: 0
+  - questionId: 3
+    questionInfo: How is good education related to sustainable development?
+    options:
+    - Enables individuals' development and participation in society
+    - A good education helps in the job search
+    - Both are correct
+    correctAns: Both are correct
+    socialPoints: 0
+    ecologyPoints: 3
+    economyPoints: 0
+  - questionId: 4
+    questionInfo: Why is gender equality important from the point of view of sustainable
+      development?
+    options:
+    - Reduces discrimination and improves the quality of life of individuals
+    - It increases the carrying capacity of the environment
+    - Neither option
+    correctAns: Reduces discrimination and improves the quality of life of individuals
+    socialPoints: 0
+    ecologyPoints: 3
+    economyPoints: 0
+  - questionId: 5
+    questionInfo: How can global affordable and clean energy be improved?
+    options:
+    - By investing in new and clean energy sources
+    - By adding money to bureaucracy
+    - Neither option
+    correctAns: By investing in new and clean energy sources
+    socialPoints: 0
+    ecologyPoints: 3
+    economyPoints: 0
+  - questionId: 6
+    questionInfo: How can the use of clean energy reduce global emissions?
+    options:
+    - Reduces the use of fossil fuels and therefore climate emissions
+    - Clean energy increases the number of oil deposits
+    - Both are correct
+    correctAns: Reduces the use of fossil fuels and therefore climate emissions
+    socialPoints: 0
+    ecologyPoints: 3
+    economyPoints: 0
+  - questionId: 7
+    questionInfo: How do decent work and economic growth promote sustainable development?
+    options:
+    - Increases people's standard of living and economic stability
+    - It increases the number of overtime hours and eliminates hourly bonuses
+    - Both are correct
+    correctAns: Increases people's standard of living and economic stability
+    socialPoints: 0
+    ecologyPoints: 3
+    economyPoints: 0
+  - questionId: 8
+    questionInfo: What does sustainable industry mean in the definition of the UN
+      sustainable development goals?
+    options:
+    - Environmentally friendly, ethical and financially sustainable operations in
+      industry
+    - Electrification with oil
+    - Both are correct
+    correctAns: Environmentally friendly, ethical and financially sustainable operations
+      in industry
+    socialPoints: 0
+    ecologyPoints: 3
+    economyPoints: 0
+  - questionId: 9
+    questionInfo: How does reducing inequality support the goals of sustainable development?
+    options:
+    - By creating a more equal society
+    - It creates inequality in society
+    - Neither option
+    correctAns: By creating a more equal society
+    socialPoints: 0
+    ecologyPoints: 3
+    economyPoints: 0
+  - questionId: 10
+    questionInfo: What is the UN's goal for sustainable cities and communities?
+    options:
+    - Make them unbiased and safe
+    - Make them inclusive
+    - Both are correct
+    correctAns: Both are correct
+    socialPoints: 0
+    ecologyPoints: 3
+    economyPoints: 0
+  - questionId: 11
+    questionInfo: How do sustainable cities and communities reduce environmental
+      risks?
+    options:
+    - By reducing land use
+    - By adding carbon sinks to cities
+    - Both are correct
+    correctAns: Both are correct
+    socialPoints: 0
+    ecologyPoints: 3
+    economyPoints: 0
+  - questionId: 12
+    questionInfo: How is "responsible consumption" related to sustainable development?
+    options:
+    - It promotes environmental sustainability and social responsibility in the production
+      process and consumption
+    - We support products that have certainly been produced unethically
+    - Both are correct
+    correctAns: It promotes environmental sustainability and social responsibility
+      in the production process and consumption
+    socialPoints: 0
+    ecologyPoints: 3
+    economyPoints: 0
+  - questionId: 13
+    questionInfo: How does "responsible consumption" affect the environment and society?
+    options:
+    - Reduces environmental harm
+    - Promotes a socially just production process
+    - Both are correct
+    correctAns: Both are correct
+    socialPoints: 0
+    ecologyPoints: 3
+    economyPoints: 0
+  - questionId: 14
+    questionInfo: What does it mean to take climate action within the framework of
+      the UN's sustainable development?
+    options:
+    - Actions aimed at reducing the harm caused by climate change
+    - Actions aimed at increasing the harm caused by climate change
+    - Neither option
+    correctAns: Actions aimed at reducing the harm caused by climate change
+    socialPoints: 0
+    ecologyPoints: 3
+    economyPoints: 0
+  - questionId: 15
+    questionInfo: What are some examples of climate action?
+    options:
+    - Reducing energy consumption
+    - Increasing the use of renewable energy and increasing carbon dioxide emissions
+    - Both are correct
+    correctAns: Reducing energy consumption
+    socialPoints: 0
+    ecologyPoints: 3
+    economyPoints: 0
+  - questionId: 16
+    questionInfo: Why is doing climate action important?
+    options:
+    - Climate change causes harm to the environment, the economy and people's well-being
+    - Climate actions reduce the carbon footprint
+    - Both are correct
+    correctAns: Both are correct
+    socialPoints: 0
+    ecologyPoints: 3
+    economyPoints: 0
+  - questionId: 17
+    questionInfo: What does "underwater life" mean in the UN Sustainable Development
+      Goal?
+    options:
+    - Protect and improve marine and lake animal habitats and animal protection
+    - You have to swim more so that oxygen mixes with the water
+    - Both are correct
+    correctAns: Protect and improve marine and lake animal habitats and animal protection
+    socialPoints: 0
+    ecologyPoints: 3
+    economyPoints: 0
+  - questionId: 18
+    questionInfo: What challenges does the "underwater life" goal address?
+    options:
+    - For the reduction related to the protection of marine organisms
+    - For eutrophication
+    - Both are correct
+    correctAns: Both are correct
+    socialPoints: 0
+    ecologyPoints: 3
+    economyPoints: 0
+  - questionId: 19
+    questionInfo: How can the "underwater life" goal be achieved?
+    options:
+    - By promoting eutrophication
+    - By reducing the habitats of marine life
+    - By taking environmental protection measures
+    correctAns: By taking environmental protection measures
+    socialPoints: 0
+    ecologyPoints: 3
+    economyPoints: 0
+  - questionId: 20
+    questionInfo: What are the key measures of progress towards the "life under water"
+      goal?
+    options:
+    - Increasing the protection and improvement of marine and lake animal habitats
+    - Reducing environmental pollution
+    - Both are correct
+    correctAns: Both are correct
+    socialPoints: 0
+    ecologyPoints: 3
+    economyPoints: 0
+  - questionId: 21
+    questionInfo: How does life on earth relate to the UN's sustainable development
+      goals?
+    options:
+    - It is related to the preservation and improvement of habitats and biodiversity
+    - People need to simplify ecosystems
+    - Neither option
+    correctAns: It is related to the preservation and improvement of habitats and
+      biodiversity
+    socialPoints: 0
+    ecologyPoints: 3
+    economyPoints: 0
+  - questionId: 22
+    questionInfo: How is life on earth important to humanity?
+    options:
+    - It provides natural resources and provides shelter and habitat for many animal
+      species
+    - The less nature, the more cities and shops
+    - Both are correct
+    correctAns: It provides natural resources and provides shelter and habitat for
+      many animal species
+    socialPoints: 0
+    ecologyPoints: 3
+    economyPoints: 0
+  - questionId: 23
+    questionInfo: Why are peace, justice and good governance important in achieving
+      the UN's sustainable development goals?
+    options:
+    - Without these three, other sustainable development goals cannot be promoted
+    - These three create the basis for nature
+    - Both are correct
+    correctAns: Without these three, other sustainable development goals cannot be
+      promoted
+    socialPoints: 0
+    ecologyPoints: 3
+    economyPoints: 0
+  - questionId: 24
+    questionInfo: How can we promote peace and justice in our own lives?
+    options:
+    - By actively participating in the development of our community and the world
+    - By going to work
+    - Both are correct
+    correctAns: Both are correct
+    socialPoints: 0
+    ecologyPoints: 3
+    economyPoints: 0
+  - questionId: 25
+    questionInfo: Why is cooperation and partnership needed to achieve sustainable
+      development?
+    options:
+    - The challenges of sustainable development are complex and extensive
+    - Cooperation and partnership are not needed
+    - Neither option
+    correctAns: The challenges of sustainable development are complex and extensive
+    socialPoints: 0
+    ecologyPoints: 3
+    economyPoints: 0
+  - questionId: 26
+    questionInfo: What are examples of cooperation and partnership in environmental
+      protection?
+    options:
+    - Agreements between governments and companies on environmental protection
+    - Sponsorship of various products
+    - Both are correct
+    correctAns: Agreements between governments and companies on environmental protection
+    socialPoints: 0
+    ecologyPoints: 3
+    economyPoints: 0
+  - questionId: 27
+    questionInfo: How can different parts of society support the goal "No poverty"?
+    options:
+    - Individuals can help the poor
+    - Governments can defend the position of poor people
+    - Both are correct
+    correctAns: Both are correct
+    socialPoints: 3
+    ecologyPoints: 0
+    economyPoints: 0
+  - questionId: 28
+    questionInfo: How can different parts of society support the realization of the
+      goal "No hunger"?
+    options:
+    - By donating to food aid programs or supporting agricultural development
+    - Different parts of society could take products between donations
+    - Both are correct
+    correctAns: By donating to food aid programs or supporting agricultural development
+    socialPoints: 3
+    ecologyPoints: 0
+    economyPoints: 0
+  - questionId: 29
+    questionInfo: How can individuals contribute to achieving the goal of "health
+      and well-being"?
+    options:
+    - By taking care of a healthy diet
+    - By moving regularly
+    - Both are correct
+    correctAns: Both are correct
+    socialPoints: 3
+    ecologyPoints: 0
+    economyPoints: 0
+  - questionId: 30
+    questionInfo: How does a good education affect the position of women in society?
+    options:
+    - Improve their position in society
+    - Weakens their position in society
+    - Neither option
+    correctAns: Improve their position in society
+    socialPoints: 3
+    ecologyPoints: 0
+    economyPoints: 0
+  - questionId: 31
+    questionInfo: How can good education help reduce discrimination?
+    options:
+    - Increases understanding and perception of equality in society
+    - Good education brings more power
+    - Neither option
+    correctAns: Increases understanding and perception of equality in society
+    socialPoints: 3
+    ecologyPoints: 0
+    economyPoints: 0
+  - questionId: 32
+    questionInfo: How is achieving gender equality possible in practice?
+    options:
+    - Let's make legislative changes
+    - Change in society's attitudes and continuous equality work
+    - Both are correct
+    correctAns: Both are correct
+    socialPoints: 3
+    ecologyPoints: 0
+    economyPoints: 0
+  - questionId: 33
+    questionInfo: What does gender equality mean in sustainable development goals?
+    options:
+    - Gender equality is not a goal of sustainable development
+    - Distribution of opportunities, rights and responsibilities according to gender
+    - Neither option
+    correctAns: Neither option
+    socialPoints: 3
+    ecologyPoints: 0
+    economyPoints: 0
+  - questionId: 34
+    questionInfo: Why is affordable and clean energy important in the goal of sustainable
+      development?
+    options:
+    - It reduces environmental harm and climate emissions
+    - It lowers people's standard of living
+    - It weakens economic growth
+    correctAns: It reduces environmental harm and climate emissions
+    socialPoints: 2
+    ecologyPoints: 1
+    economyPoints: 0
+  - questionId: 35
+    questionInfo: How do decent jobs affect people's living standards?
+    options:
+    - Increases people's standard of living and safety and strengthen financial security
+    - Increases the number of working hours and reduce holidays, which improves health
+    - Both are correct
+    correctAns: Increases people's standard of living and safety and strengthen financial
+      security
+    socialPoints: 3
+    ecologyPoints: 0
+    economyPoints: 0
+  - questionId: 36
+    questionInfo: What actions can be taken to promote the sustainable development
+      of industry and innovation?
+    options:
+    - By investing in new technologies
+    - By developing environmentally friendly ways of working
+    - Both are correct
+    correctAns: Both are correct
+    socialPoints: 3
+    ecologyPoints: 0
+    economyPoints: 0
+  - questionId: 37
+    questionInfo: What kind of measures are needed to reduce inequality?
+    options:
+    - Development of an unequal pay system
+    - Improving educational opportunities
+    - Not addressing discrimination by legislation
+    correctAns: Improving educational opportunities
+    socialPoints: 3
+    ecologyPoints: 0
+    economyPoints: 0
+  - questionId: 38
+    questionInfo: How does reducing inequality affect the well-being of society and
+      people?
+    options:
+    - It prevents marginalization
+    - It promotes marginalization
+    - Neither option
+    correctAns: It prevents marginalization
+    socialPoints: 3
+    ecologyPoints: 0
+    economyPoints: 0
+  - questionId: 39
+    questionInfo: How do sustainable cities and communities improve people's quality
+      of life?
+    options:
+    - Better opportunities for daily services
+    - Better opportunities for different clothing stores
+    - Weaker opportunities for daily services
+    correctAns: Better opportunities for daily services
+    socialPoints: 3
+    ecologyPoints: 0
+    economyPoints: 0
+  - questionId: 40
+    questionInfo: How do sustainable cities and communities promote social and economic
+      equality?
+    options:
+    - Considering the needs and wishes of all residents in planning
+    - High prices in order to get residential areas of unequal value
+    - Both are correct
+    correctAns: Considering the needs and wishes of all residents in planning
+    socialPoints: 3
+    ecologyPoints: 0
+    economyPoints: 0
+  - questionId: 41
+    questionInfo: How does life on earth relate to the UN's sustainable development
+      goal of "health and well-being"?
+    options:
+    - Life on Earth provides vital natural resources
+    - Life on earth is not related to the goal
+    - Neither option
+    correctAns: Life on Earth provides vital natural resources
+    socialPoints: 3
+    ecologyPoints: 0
+    economyPoints: 0
+  - questionId: 42
+    questionInfo: What is the purpose of the goal of peace, justice and good governance?
+    options:
+    - Promotes inequality in the world
+    - Add conflicts
+    - Neither option
+    correctAns: Neither option
+    socialPoints: 3
+    ecologyPoints: 0
+    economyPoints: 0
+  - questionId: 43
+    questionInfo: How will the goal of "peace, justice and good governance" be realized?
+    options:
+    - By improving the realization of human rights
+    - By developing democratic processes and strengthening the functioning of administrations
+    - Both are correct
+    correctAns: Both are correct
+    socialPoints: 3
+    ecologyPoints: 0
+    economyPoints: 0
+  - questionId: 44
+    questionInfo: What kind of challenges are there in achieving the goal of "peace,
+      justice and good governance"?
+    options:
+    - Conflicts and violence
+    - Human rights and democracy
+    - There are no challenges
+    correctAns: Conflicts and violence
+    socialPoints: 3
+    ecologyPoints: 0
+    economyPoints: 0
+  - questionId: 45
+    questionInfo: How can we promote the goal of "peace, justice and good governance"
+      in our own lives?
+    options:
+    - By supporting human rights and democracy
+    - By doing one's part in promoting peace and justice
+    - Both are correct
+    correctAns: Both are correct
+    socialPoints: 3
+    ecologyPoints: 0
+    economyPoints: 0
+  - questionId: 46
+    questionInfo: How can cooperation and partnership promote the well-being of people
+      in the world?
+    options:
+    - They enable wider and more efficient operations in different fields
+    - More friends, more likes on social media
+    - Both are correct
+    correctAns: They enable wider and more efficient operations in different fields
+    socialPoints: 3
+    ecologyPoints: 0
+    economyPoints: 0
+  - questionId: 47
+    questionInfo: What are the most effective ways to reduce poverty?
+    options:
+    - By improving opportunities for employment
+    - By doing more work
+    - Neither option
+    correctAns: By improving opportunities for employment
+    socialPoints: 0
+    ecologyPoints: 0
+    economyPoints: 3
+  - questionId: 48
+    questionInfo: What is the most common cause of famine?
+    options:
+    - Running out of usable food resources
+    - Eating too little
+    - Neither option
+    correctAns: Running out of usable food resources
+    socialPoints: 0
+    ecologyPoints: 0
+    economyPoints: 3
+  - questionId: 49
+    questionInfo: What are the measures of the goal "No hunger"?
+    options:
+    - Improving economic conditions
+    - Development of agriculture
+    - Both are correct
+    correctAns: Both are correct
+    socialPoints: 0
+    ecologyPoints: 0
+    economyPoints: 3
+  - questionId: 50
+    questionInfo: How can the goal of "health and well-being" contribute to other
+      sustainable development goals?
+    options:
+    - By promoting economic growth and reducing poverty
+    - By increasing inequality
+    - Both are correct
+    correctAns: By promoting economic growth and reducing poverty
+    socialPoints: 0
+    ecologyPoints: 0
+    economyPoints: 3
+  - questionId: 51
+    questionInfo: How does the promotion of gender equality affect the development
+      of society?
+    options:
+    - It weakens the opportunities of individuals to participate in the life of society
+    - The development of society stops
+    - Neither option
+    correctAns: Neither option
+    socialPoints: 0
+    ecologyPoints: 0
+    economyPoints: 3
+  - questionId: 52
+    questionInfo: How does improving access to cheap and clean energy promote economic
+      development?
+    options:
+    - Enables more efficient and environmentally friendly operation
+    - Clean energy is expensive, so the economy grows
+    - Both are correct
+    correctAns: Enables more efficient and environmentally friendly operation
+    socialPoints: 0
+    ecologyPoints: 0
+    economyPoints: 3
+  - questionId: 53
+    questionInfo: Why are innovations important in achieving the UN's sustainable
+      development goals?
+    options:
+    - To figure out how to make a simple thing complicated
+    - Innovation improves ecological, economic and social efficiency
+    - Neither option
+    correctAns: Innovation improves ecological, economic and social efficiency
+    socialPoints: 0
+    ecologyPoints: 0
+    economyPoints: 3
+  - questionId: 54
+    questionInfo: How is reducing inequality related to economic development?
+    options:
+    - It increases people's opportunities to participate in the economy and make
+      financial decisions
+    - It neither increases nor decreases economic development
+    - Neither option
+    correctAns: It increases people's opportunities to participate in the economy
+      and make financial decisions
+    socialPoints: 0
+    ecologyPoints: 0
+    economyPoints: 3
+  - questionId: 55
+    questionInfo: How can individuals promote "responsible consumption"?
+    options:
+    - By choosing environmentally friendly and socially responsible products
+    - By reducing unnecessary purchases and increasing recycling
+    - Both are correct
+    correctAns: Both are correct
+    socialPoints: 0
+    ecologyPoints: 0
+    economyPoints: 3
+  - questionId: 56
+    questionInfo: How can companies promote "responsible consumption"?
+    options:
+    - By taking care of responsible production processes
+    - By supporting low-cost factories
+    - Both are correct
+    correctAns: By taking care of responsible production processes
+    socialPoints: 0
+    ecologyPoints: 0
+    economyPoints: 3
+  - questionId: 57
+    questionInfo: How can climate action promote economic growth and development?
+    options:
+    - By creating new jobs and investments in the fields of renewable energy and
+      low-carbon technology
+    - Improves living conditions and reduces costs
+    - Both are correct
+    correctAns: Both are correct
+    socialPoints: 0
+    ecologyPoints: 0
+    economyPoints: 3
+  - questionId: 58
+    questionInfo: How can life on earth be protected within the framework of the
+      UN's sustainable development?
+    options:
+    - By establishing nature reserves
+    - By promoting the bioeconomy
+    - Both are correct
+    correctAns: Both are correct
+    socialPoints: 0
+    ecologyPoints: 0
+    economyPoints: 3
+  - questionId: 59
+    questionInfo: Why is cooperation and partnership needed to achieve sustainable
+      development?
+    options:
+    - Cooperation enables the pooling of resources from different parties
+    - A better result in sustainable development is achieved alone
+    - Neither option
+    correctAns: Cooperation enables the pooling of resources from different parties
+    socialPoints: 0
+    ecologyPoints: 0
+    economyPoints: 3
+  - questionId: 60
+    questionInfo: What are examples of cooperation and partnership in promoting economic
+      growth?
+    options:
+    - Agreements between governments and companies on economic growth and investment
+    - After-work networking in a local pub
+    - Neither option
+    correctAns: Agreements between governments and companies on economic growth and
+      investment
+    socialPoints: 0
+    ecologyPoints: 0
+    economyPoints: 3
+  - questionId: 61
+    questionInfo: What is sustainable development?
+    options:
+    - A change that secures good living opportunities for future generations
+    - A change that causes climate change
+    - A change that opposes human rights
+    correctAns: A change that secures good living opportunities for future generations
+    socialPoints: 1
+    ecologyPoints: 1
+    economyPoints: 1

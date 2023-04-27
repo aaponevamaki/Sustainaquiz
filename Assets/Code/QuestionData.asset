@@ -447,7 +447,7 @@ MonoBehaviour:
     - "Se ehk\xE4isee syrj\xE4ytymist\xE4"
     - "Se edist\xE4\xE4 syrj\xE4ytymist\xE4"
     - Ei kumpikaan vaihtoehdoista
-    correctAns: Koulutusmahdollisuuksien parantamista
+    correctAns: "Se ehk\xE4isee syrj\xE4ytymist\xE4"
     socialPoints: 3
     ecologyPoints: 0
     economyPoints: 0

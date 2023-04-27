@@ -6,18 +6,18 @@ using UnityEngine.UI;
 public class ChangeImage : MonoBehaviour
 {
     public Image oldImage;
-    public Sprite muteButton;
-    public Sprite unmuteButton;
+    public Sprite newSprite;
+    public Sprite oldSprite;
 
     public void ImageChange()
     {
-        if (oldImage.sprite == muteButton)
+        if (oldImage.sprite == newSprite)
         {
-            oldImage.sprite = unmuteButton;
+            oldImage.sprite = oldSprite;
         }
         else
         {
-            oldImage.sprite = muteButton;
+            oldImage.sprite = newSprite;
         }
         
     }
