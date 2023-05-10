@@ -20,14 +20,14 @@ public class LanguageSettings : MonoBehaviour
             {
                 Language.isOn = true;
                 playButtonText.text = "Play";
-                optionsButtonText.text = "Options";
+                optionsButtonText.text = "Extra";
                 statsButtonText.text = "Stats";
             }
             else
             {
                 Language.isOn = false;
                 playButtonText.text = "Pelaa";
-                optionsButtonText.text = "Asetukset";
+                optionsButtonText.text = "Lisää";
                 statsButtonText.text = "Tilastot";
             }
         }
@@ -35,7 +35,7 @@ public class LanguageSettings : MonoBehaviour
         {
             PlayerPrefs.SetString("Language", "Finnish");
             playButtonText.text = "Pelaa";
-            optionsButtonText.text = "Asetukset";
+            optionsButtonText.text = "Lisää";
             statsButtonText.text = "Tilastot";
         }
     }
@@ -45,13 +45,13 @@ public class LanguageSettings : MonoBehaviour
         if (Language.isOn)
         {
             playButtonText.text = "Play";
-            optionsButtonText.text = "Options";
+            optionsButtonText.text = "Extra";
             statsButtonText.text = "Stats";
         }
         else
         {
             playButtonText.text = "Pelaa";
-            optionsButtonText.text = "Asetukset";
+            optionsButtonText.text = "Lisää";
             statsButtonText.text = "Tilastot";
         }
     }

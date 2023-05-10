@@ -12,6 +12,7 @@ public class QuizUI : MonoBehaviour
     [SerializeField] private TextMeshProUGUI questionText;
     [SerializeField] private List<Button> options;
     [SerializeField] private Color correctCol, wrongCol, normalCol;
+    [SerializeField] private HorizontalLayoutGroup Leftie;
 
     private Question question;
     private bool answered;
@@ -25,6 +26,12 @@ public class QuizUI : MonoBehaviour
 
     void Awake()
     {
+        if (PlayerPrefs.GetString("Hand") == "Left")
+        {
+            Leftie.reverseArrangement = true;
+            Debug.Log("Leftie");
+        }
+
         if (PlayerPrefs.HasKey("socialpoints"))
         {
             totalSocialPoints = PlayerPrefs.GetInt("socialpoints");

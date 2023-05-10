@@ -1043,6 +1043,7 @@ MonoBehaviour:
   correctCol: {r: 0, g: 0.70980394, b: 0, a: 0.5529412}
   wrongCol: {r: 1, g: 0, b: 0, a: 0.54509807}
   normalCol: {r: 1, g: 1, b: 1, a: 1}
+  Leftie: {fileID: 1524476082}
   pointsText: {fileID: 1916412986}
 --- !u!1 &786815545
 GameObject:

@@ -54,18 +54,22 @@ public class QuizManager : MonoBehaviour
 
     void BuildQuestionList()
     {
-        for (int i = 0; i < 10; i++)
+        do
         {
             int random = Random.Range(0,1);
             if (random > 0.75)
-            {
-                selectedQuestions.Add(answeredQuestions [Random.Range(0, answeredQuestions.Count() -1)]);
+            {   
+                int selection = Random.Range(0, answeredQuestions.Count() -1);
+                selectedQuestions.Add(answeredQuestions [selection]);
+                answeredQuestions.RemoveAt(selection);
             }
             else
-            {
-                selectedQuestions.Add(unansweredQuestions [Random.Range(0, unansweredQuestions.Count() -1)]);
+            {   
+                int selection = Random.Range(0, unansweredQuestions.Count() -1);
+                selectedQuestions.Add(unansweredQuestions [selection]);
+                unansweredQuestions.RemoveAt(selection);
             }
-        }
+        } while (selectedQuestions.Count() < 10);
     }
 
     void SelectQuestion()
