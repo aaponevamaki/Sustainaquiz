@@ -13,8 +13,5 @@ public class ScreenSize : MonoBehaviour
         screenHeight = Screen.height;
         screenWidth = Screen.width;
         safe = Screen.safeArea;
-        Debug.Log(screenWidth);
-        Debug.Log(screenHeight);
-        Debug.Log(safe);
     }
 }

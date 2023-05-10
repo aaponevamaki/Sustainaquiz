@@ -56,18 +56,23 @@ public class QuizManager : MonoBehaviour
     {
         do
         {
-            int random = Random.Range(0,1);
+            double random = Random.Range(0,1);
             if (random > 0.75)
             {   
-                int selection = Random.Range(0, answeredQuestions.Count() -1);
+                int selection = Random.Range(0, answeredQuestions.Count());
                 selectedQuestions.Add(answeredQuestions [selection]);
                 answeredQuestions.RemoveAt(selection);
             }
-            else
+            else if (!(unansweredQuestions.Count()==0))
             {   
-                int selection = Random.Range(0, unansweredQuestions.Count() -1);
+                int selection = Random.Range(0, unansweredQuestions.Count());
                 selectedQuestions.Add(unansweredQuestions [selection]);
                 unansweredQuestions.RemoveAt(selection);
+            } 
+            else
+            {
+                int selection = Random.Range(0, questions.Count());
+                unansweredQuestions.Add(questions[selection]);
             }
         } while (selectedQuestions.Count() < 10);
     }
@@ -80,8 +85,6 @@ public class QuizManager : MonoBehaviour
         }
         else
         {
-        Debug.Log(counter);
-        Debug.Log(selectedQuestions.Count());
 
         selection = Random.Range(0, selectedQuestions.Count());
 

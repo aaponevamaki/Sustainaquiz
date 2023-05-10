@@ -42,16 +42,10 @@ public class Stats : MonoBehaviour
 
     void Start()
     {
-        //ecology = PlayerPrefs.GetInt("ecologypoints");
-        //economy = PlayerPrefs.GetInt("economypoints");
-        //social = PlayerPrefs.GetInt("socialpoints");
+        ecology = PlayerPrefs.GetInt("ecologypoints");
+        economy = PlayerPrefs.GetInt("economypoints");
+        social = PlayerPrefs.GetInt("socialpoints");
 
-        ecology = 83;
-        //83
-        economy = 43;
-        //43
-        social = 60;
-        //60
         CalculateTotalPoints();
 
         socialPercentage = (float)social/(float)socialTotal;
@@ -114,6 +108,21 @@ public class Stats : MonoBehaviour
         SocialPoints.text = social + "/" + socialTotal;
         EconomyPoints.text = economy + "/" + economyTotal;
         EcologyPoints.text = ecology + "/" + ecologyTotal;
+
+        if (social > socialTotal)
+        {
+            SocialPoints.text = socialTotal + "/" + socialTotal;
+        }
+        
+        if (economy > economyTotal)
+        {
+            EconomyPoints.text = economyTotal + "/" + economyTotal;
+        }
+        
+        if (ecology > ecologyTotal)
+        {
+            EcologyPoints.text = ecologyTotal + "/" + ecologyTotal;
+        }
         
     }
 

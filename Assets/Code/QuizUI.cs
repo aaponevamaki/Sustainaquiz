@@ -29,7 +29,6 @@ public class QuizUI : MonoBehaviour
         if (PlayerPrefs.GetString("Hand") == "Left")
         {
             Leftie.reverseArrangement = true;
-            Debug.Log("Leftie");
         }
 
         if (PlayerPrefs.HasKey("socialpoints"))
@@ -51,10 +50,6 @@ public class QuizUI : MonoBehaviour
         {
             highscore = PlayerPrefs.GetInt("highscore");
         }
-
-        Debug.Log("Social points: " + PlayerPrefs.GetInt("socialpoints") + " " + "Ecology points: " + PlayerPrefs.GetInt("ecologypoints") + " " + "Economy points: " + PlayerPrefs.GetInt("economypoints"));
-
-        Debug.Log("Highscore: " + PlayerPrefs.GetInt("highscore"));
 
         for (int i = 0; i < options.Count; i++)
         {

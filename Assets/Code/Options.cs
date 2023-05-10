@@ -47,21 +47,21 @@ public class Options : MonoBehaviour
 
     public void OpenEdusta()
     {
-        Application.OpenURL("");
+        Application.OpenURL("https://projects.tuni.fi/edusta/");
     }
 
     public void OpenTiko()
     {
-        Application.OpenURL("");
+        Application.OpenURL("https://webpages.tuni.fi/22tiko/");
     }
 
     public void OpenSeventeenGoals()
     {
-        Application.OpenURL("");
+        Application.OpenURL("https://sdgs.un.org/goals");
     }
 
     public void OpenJoystickMobile()
     {
-        Application.OpenURL("");
+        Application.OpenURL("https://webpages.tuni.fi/22tiko1f/");
     }
 }
